@@ -5,6 +5,10 @@ basic information
 ---------------------
 *Ubuntu 12.04.02 LTS desktop i386 version 
 *chrome browser install
+** 解决 chrome CPU 100% -sudo apt-get install m4 
+http://www.robgolding.com/blog/2010/06/07/fixing-google-chromes-100-cpu-usage-on-ubuntu/
+still in verify
+
 *webqq for communication with parter
 * chinese input using default installed, not bad
 * need learn some shotcut for ubuntu
