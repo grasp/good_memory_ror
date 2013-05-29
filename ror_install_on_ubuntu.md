@@ -32,6 +32,9 @@ ruby install
 
 as ruby 2.0 and rails 4.0 is coming, so I try to use latest , not sure the price.
 
+RVM install  guide
+--------------
+http://ruby-china.org/wiki/rvm-guide
 
 
 rails install
