@@ -63,3 +63,53 @@ mongodb install
 
 git install
 --------------------
+
+
+memcache install
+------------------
+http://aliyador.iteye.com/blog/1124721
+
+check mem service
+
+tarting memcached: memcached.
+hunter@hunter-ruby:~/ruby-china$ ps -ef |grep mem
+memcache  3987     1  0 07:03 ?        00:00:00 /usr/bin/memcached -m 64 -p 11211 -u memcache -l 127.0.0.1
+hunter    4005  3427  0 07:03 pts/2    00:00:00 grep --color=auto mem
+
+Redis install
+-------------------------
+http://www.2cto.com/database/201304/203768.html
+Starting redis-server: redis-server.
+hunter@hunter-ruby:~/ruby-china$ ps -ef |grep redis
+redis     4458     1  0 07:07 ?        00:00:00 /usr/bin/redis-server /etc/redis/redis.conf
+hunter    4479  3427  0 07:08 pts/2    00:00:00 grep --color=auto redis
+
+
+check redis server is run
+
+Mongodb Install
+-------------------------
+http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/
+sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
+Create a /etc/apt/sources.list.d/10gen.list file using the following command.
+
+echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/10gen.list
+Now issue the following command to reload your repository:
+
+sudo apt-get update
+Install Packages
+Issue the following command to install the latest stable version of MongoDB:
+
+sudo apt-get install mongodb-10gen
+
+check mongodb service by 
+hunter@hunter-ruby:~/ruby-china$ ps -ef |grep mongodb
+mongodb   5105     1  0 07:23 ?        00:00:00 /usr/bin/mongod --config /etc/mongodb.conf
+hunter    5139  3427  0 07:25 pts/2    00:00:00 grep --color=auto mongodb
+
+Install Image Magic
+------------------------------
+sudo apt-get install libmagickwand-dev
+sudo apt-get install imagemagick
+
+When this command completes, you have successfully installed MongoDB! Continue for configuration and start-up suggestions.
