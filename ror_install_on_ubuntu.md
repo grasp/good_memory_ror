@@ -113,3 +113,7 @@ sudo apt-get install libmagickwand-dev
 sudo apt-get install imagemagick
 
 When this command completes, you have successfully installed MongoDB! Continue for configuration and start-up suggestions.
+
+install libpng-dev
+------------------------
+sudo apt-get install libpng-dev
