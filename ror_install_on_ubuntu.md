@@ -130,3 +130,7 @@ copy ruby-china from github
 -------------------------------
 git clone https://github.com/ruby-china/ruby-china
 
+RVM use issue
+--------------
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
+
