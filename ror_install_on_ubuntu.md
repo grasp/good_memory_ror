@@ -155,3 +155,7 @@ There is a naming conflict with the node package (Amateur Packet Radio Node Prog
 and the nodejs binary has been renamed from node to nodejs. You'll need to symlink /usr/bin/node to 
 /usr/bin/nodejs or you could uninstall the Amateur Packet Radio Node Program to avoid that conflict.
 
+
+
+http://stackoverflow.com/questions/11177809/how-to-ping-ubuntu-guest-on-virtualbox
+
