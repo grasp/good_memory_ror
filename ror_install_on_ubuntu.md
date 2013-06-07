@@ -134,3 +134,24 @@ RVM use issue
 --------------
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm"
 
+check setup.rb , and run each command
+--------------------------------------
+
+install nodejs to compile js
+--------------------------------------
+https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager
+sudo apt-get update
+sudo apt-get install python-software-properties python g++ make
+sudo add-apt-repository ppa:chris-lea/node.js
+sudo apt-get update
+sudo apt-get install nodejs
+
+It installs current stable Node on the current stable Ubuntu. Quantal (12.10) users may need to install the software-properties-common package 
+for the add-apt-repository command to work: sudo apt-get install software-properties-common
+
+As of Node.js v0.10.0, the nodejs package from Chris Lea's repo includes both npm and nodejs-dev.
+
+There is a naming conflict with the node package (Amateur Packet Radio Node Program),
+and the nodejs binary has been renamed from node to nodejs. You'll need to symlink /usr/bin/node to 
+/usr/bin/nodejs or you could uninstall the Amateur Packet Radio Node Program to avoid that conflict.
+
