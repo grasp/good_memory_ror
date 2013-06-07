@@ -58,16 +58,14 @@ gem sources -l       #用来查看source list
 安装完毕后，使用rails -v 查看版本，如果你看到正确显示版本，恭喜你，可以下一步了。
 
 
-mongodb install
--------------------
 
-git install
---------------------
 
 
 memcache install
 ------------------
 http://aliyador.iteye.com/blog/1124721
+
+* sudo apt-get install memcached 
 
 check mem service
 
@@ -79,6 +77,9 @@ hunter    4005  3427  0 07:03 pts/2    00:00:00 grep --color=auto mem
 Redis install
 -------------------------
 http://www.2cto.com/database/201304/203768.html
+
+* sudo apt-get install redis-server
+* 
 Starting redis-server: redis-server.
 hunter@hunter-ruby:~/ruby-china$ ps -ef |grep redis
 redis     4458     1  0 07:07 ?        00:00:00 /usr/bin/redis-server /etc/redis/redis.conf
@@ -117,3 +118,15 @@ When this command completes, you have successfully installed MongoDB! Continue f
 install libpng-dev
 ------------------------
 sudo apt-get install libpng-dev
+
+
+Install git on ubuntu
+-----------------------
+https://www.digitalocean.com/community/articles/how-to-install-git-on-ubuntu-12-04
+sudo apt-get git-core git
+
+
+copy ruby-china from github
+-------------------------------
+git clone https://github.com/ruby-china/ruby-china
+
