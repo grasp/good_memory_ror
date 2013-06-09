@@ -37,3 +37,13 @@ clflush size    : 64
 cache_alignment : 64
 address sizes   : 48 bits physical, 48 bits virtual
 power management: ts ttp tm stc 100mhzsteps hwpstate
+
+
+盛大云主机
+---------------
+
+价格
+http://www.grandcloud.cn/index/price/
+
+备案
+http://pre-forum.grandcloud.cn/thread-2591-1-1.html
