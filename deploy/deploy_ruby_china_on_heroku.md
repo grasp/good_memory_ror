@@ -17,9 +17,16 @@ https://devcenter.heroku.com/articles/quickstart
  Git remote heroku added
  
  #解决key的问题
- http://stackoverflow.com/questions/4269922/permission-denied-publickey-when-deploying-heroku-code-fatal-the-remote-end
+ http://stackoverflow.com/heroku addons:add memcachier:devquestions/4269922/permission-denied-publickey-when-deploying-heroku-code-fatal-the-remote-end
+
+
+
+#Memcache on heroku
+
+https://devcenter.heroku.com/articles/building-a-rails-3-application-with-memcache
+heroku addons:add memcachier:dev
 
 
 # MonogoHQ
-
+https://devcenter.heroku.com/articles/mongohq
 
