@@ -36,6 +36,8 @@ RVM install  guide
 --------------
 http://ruby-china.org/wiki/rvm-guide
 
+#this include passeage usage and nginx install
+https://hisea.me/p/rails31-ubuntu-passenger-nginx-quick-deploy
 
 rails install
 -------------------
