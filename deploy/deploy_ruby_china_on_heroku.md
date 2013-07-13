@@ -30,3 +30,6 @@ heroku addons:add memcachier:dev
 # MonogoHQ
 https://devcenter.heroku.com/articles/mongohq
 
+#问题
+mongodb服务太麻烦，不友好，速度太慢，最终导致放弃部署
+
