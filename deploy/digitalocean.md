@@ -1,7 +1,7 @@
 ##reset root password
 ## add user hunter
-useradd hunter -m -r
-adduser hunter sudo
+* useradd hunter -m -r
+* adduser hunter sudo
 
 ## install vim
 sudo apt-get install vim
