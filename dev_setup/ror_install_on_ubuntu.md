@@ -125,7 +125,7 @@ sudo apt-get install libpng-dev
 Install git on ubuntu
 -----------------------
 https://www.digitalocean.com/community/articles/how-to-install-git-on-ubuntu-12-04
-sudo apt-get git-core git
+sudo apt-get install git-core git
 
 
 copy ruby-china from github
