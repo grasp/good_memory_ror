@@ -1,9 +1,9 @@
 ## reference
-*http://wiki.ubuntu.org.cn/UbuntuHelp:SwapFaq
+* http://wiki.ubuntu.org.cn/UbuntuHelp:SwapFaq
 
 ##main command and step 
--first create 5120M size file
-sudo dd if=/dev/zero of=/mnt/5120Mb.swap bs=1M count=5120
+* first create 5120M size file
+** sudo dd if=/dev/zero of=/mnt/5120Mb.swap bs=1M count=5120
 
 * formatting swap
 sudo mkswap /mnt/5120Mb.swap
